@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat/static/Montserrat-Thin.ttf') format('ttf');
+}
+
+h1 {
+    font-family: 'Montserrat';
+}

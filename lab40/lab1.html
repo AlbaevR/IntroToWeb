@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Change Text Example</title>
+</head>
+<body>
+    <p id="message">This is the original text.</p>
+    <button onclick="changeText()">Change Text</button>
+
+    <script>
+        function changeText() {
+            let element = document.getElementById("message");
+            if (element.innerHTML == "This is the original text.") {
+                    element.innerHTML = "The text has been changed";
+            } else {
+                element.innerHTML = element.innerHTML + " again";
+            }
+        }
+    </script>
+</body>
+</html>
